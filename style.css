@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  color:  black;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+  color: black;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #00bcd4;
+}
+
+.btn {
+  padding: 8px 15px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0288d1;
+}
+
+
+.video-container {
+  position: relative;
+  height: 85vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  max-width: 400px;
+}
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #00d4bb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0288d1;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  background-color: #333;
+  /* max-width: 1000px; */
+  padding-left: 200px;
+}
+
+.left-box {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-box p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #00d4bb;
+}
+
+.left-box h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.right-content h1 {
+  font-size: 28px;
+  color: #00d4bb;
+  margin-bottom: 15px;
+}
+
+.right-content p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.right-content .link {
+  font-size: 16px;
+  color: pink;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.right-content .link:hover {
+  color: #00d4bb;
+}
+
+.pag3 {
+  text-align: center;
+  padding-top: 10%;
+  line-height: 40px;
+  font-size: 20px;
+  padding-bottom: 10%;
+}
+
+#btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid red;
+  font-size: 30px;
+  font-weight: 300;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+  background-color: #0288d1;
+}
+
+.pag4 {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 20px;
+}
+
+
+.gallery-item {
+  width: 300px;
+  text-align: center;
+}
+
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.gallery-item button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.gallery-item button:hover {
+  background-color: #874677;
+}
